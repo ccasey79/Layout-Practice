@@ -1,0 +1,129 @@
+
+/* General css */
+
+* {
+  font-family: 'Trebuchet MS';
+}
+
+ body, ul, li {
+   margin: 0;
+   padding: 0;
+ }
+
+ p, li, h1, h2, h3, h4 {
+   color: #4e4e4e;
+ }
+
+ .wrapper {
+   width: 96%;
+   max-width: 1200px; 
+   margin: 0 auto;
+   padding: 0 2%;
+ }
+
+ /* Header example */
+
+ header {
+   background: #e5e5e5;
+   padding: 20px 0;
+ }
+
+ header h1 {
+   margin: 0;
+   text-indent: -10000px;
+   background: url(images/logo.png) no-repeat;
+   width: 130px;
+   float: left;
+ }
+
+ header nav {
+   float: right;
+ }
+
+ header:after {
+   display: block;
+   content: "";
+   clear: both;
+ } 
+
+ header nav h2 {
+   line-height: 0;
+   margin: 0;
+   text-indent: -10000px;
+ }
+
+ header nav li {
+   list-style-type: none;
+   float: left;
+   margin-left: 20px;
+   margin-top: 10px;
+ }
+
+ header nav li a {
+   text-decoration: none;
+   color: #4e4e4e;
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+
+ header nav li a.current {
+   color: red;
+ } 
+
+ /* Example of images layout inline */
+
+ #sellingPoints {
+   margin-top: 60px;
+ }
+
+ #sellingPoints li {
+   float: left;
+   width: 23%;
+   padding: 1%;
+   text-align: center;
+   list-style-type: none;
+   line-height: 1.6em;
+ }
+
+ #sellingPoints:after {
+   display: block;
+   content: "";
+   clear: both;
+ }
+
+ /* Footer - inline layout */
+
+ footer {
+   background: #efefef;
+   padding: 30px 0;
+   border-top: 1px solid #4d4d4d; 
+ }
+
+ footer h4 {
+  margin: 0;
+  color: #555;
+  text-transform: uppercase;
+  font-size: 18px;
+ }
+
+ footer ul {
+   float: left;
+   width: 25%;
+   list-style-type: none; 
+ }
+
+ footer:after {
+   display: block;
+   content: "";
+   clear: both;
+ }
+
+ footer li {
+   color: #aaa;
+   width: 80%;
+   margin: 20px 0;
+   font-size: 14px;
+   line-height: 1.6em;
+ }
+
+
