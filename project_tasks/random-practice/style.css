@@ -9,11 +9,15 @@ body {
   font-size: 16px;
 }
 
+h2, h3 {
+  margin: 0;
+  padding-bottom: 2%;
+}
+
 .wrapper {
   width: 96%;
   max-width: 1600px;
   padding: 0 2%;
-  background: #c2f0f0;
 }
 
 .wrapper ul {
@@ -67,6 +71,46 @@ header li {
   float: left;
   margin-left: 70px;
 }
+
+#main-content {
+  background-color: lightsalmon;
+  padding: 2% 0;
+  line-height: 1.6;
+}
+
+#main-content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-bottom: 1%;
+}
+
+.left-side {
+  float: left;
+  width: 46%;
+  padding: 1%;
+  margin: 1%;
+}
+
+#information {
+  background: lightseagreen;
+  padding: 2% 0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.advertInformation p {
+  margin-bottom: 1%;
+}
+
+
 
 
 
