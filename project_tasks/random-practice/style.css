@@ -110,6 +110,38 @@ header li {
   margin-bottom: 1%;
 }
 
+footer {
+  background: lightpink;
+  padding: 2% 0;
+}
+
+footer p {
+  float: left;
+  margin-left: 3%;
+  margin-top: 1.5%;
+}
+
+footer ul {
+  float: right;
+  margin-right: 3%;
+}
+
+footer ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 40px;
+}
+
+footer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+
+
 
 
 
