@@ -105,3 +105,52 @@ nav button a {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/* Main Content */
+
+main h2 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+
+main p {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+#image-container {
+  background: #cccccc;
+  margin-top: 1%;
+}
+
+#image-container img {
+  float: left;
+  width: 9%;
+  margin-top: 3%;
+}
+
+#image-container li {
+  float: left;
+  width: 18%;
+  list-style-type: none;
+  padding: 3%;
+}
+
+#image-container li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+#image-container li h4 {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+#image-container li p {
+  text-align: left;
+  font-size: 0.75rem;
+}
