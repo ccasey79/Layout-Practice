@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 3%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-bottom: 3%;
+}
+
+fieldset {
+  padding: 2%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 3%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 0.5%;
+}
+
+fieldset h1 {
+  margin-bottom: 3%;
+}
+
+.terms {
+  font-size: 0.80rem;
+}
+
+.terms a {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+#termOne {
+  margin-bottom: 5%;
+}
+
+#termTwo {
+  margin-top: 5%;
+}
+
+fieldset button {
+  background: #ff9900;
+  border-radius: 5px;
+  text-align: center;
+  /* padding: 6px 40px 6px 40px; */
+  border: 1px solid #000;
+  width: 100%;
+  margin-bottom: 3%;
+  height: 30px;
+  font-size: 14px;
+}
